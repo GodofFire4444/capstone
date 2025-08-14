@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="./images/logo.ico">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <button class="hamburger" id="hamburger-btn">☰</button>
+        </nav>
+        <nav class="navbar">
+            <a href="./index.html"><img src="./images/logo.png" alt="iitgn logo" class="logo"></a>
+            <a class="nav-item" href="./index.html">Home</a>
+
+            <div class="nav-dropdown">
+                <a class="nav-item" href="#">Academics <i class="arrow down"></i></a>
+                <div class="dropdown-menu">
+                    <a href="./programs.html">Programs</a>
+                    <a href="./admissions.html">Admissions</a>
+                    <a href="./courses.html">Courses</a>
+                    <a href="./policies.html">Policies</a>
+                </div>
+            </div>
+
+            <div class="nav-dropdown">
+                <a class="nav-item" href="#">People <i class="arrow down"></i></a>
+                <div class="dropdown-menu">
+                    <a href="./faculty.html">Faculty</a>
+                    <a href="./students.html">Students</a>
+                    <a href="./staff.html">Staff</a>
+                </div>
+            </div>
+
+            <a class="nav-item" href="./Research.html">Research</a>
+            <a class="nav-item" href="./events.html">Events</a>
+
+            <div class="nav-dropdown">
+                <a class="nav-item" href="#">Academic Resources <i class="arrow down"></i></a>
+                <div class="dropdown-menu">
+                    <a href="https://library.iitgn.ac.in/">Library</a>
+                    <a href="https://catalog.iitgn.ac.in/">Library Catalogue</a>
+                    <a href="https://repository.iitgn.ac.in/handle/123456789/427">Digital Repository</a>
+                    <a href="https://library.iitgn.ac.in/documents/eresources/ComputerScienceandEngineering.pdf">E-Journal Collection</a>
+                </div>
+            </div>
+
+            <a class="nav-item" href="./careers.html">Careers</a>
+            <a class="nav-item" href="./contact.html">Contact</a>
+        </nav>
+
+        <div class="sidebar">
+    <a class="sidebar-item" href="./index.html"><img src="./images/logo.png" alt="iitgn logo" class="logo"></a>
+    <a class="sidebar-item" href="./index.html">Home</a>
+
+    <div class="sidebar-dropdown">
+        <a class="sidebar-item dropdown-toggle" href="#">Academics <i class="arrow down"></i></a>
+        <div class="sidebar-dropdown-menu">
+            <a href="./programs.html">Programs</a>
+            <a href="./admissions.html">Admissions</a>
+            <a href="./courses.html">Courses</a>
+            <a href="./policies.html">Policies</a>
+        </div>
+    </div>
+
+    <div class="sidebar-dropdown">
+        <a class="sidebar-item dropdown-toggle" href="#">People <i class="arrow down"></i></a>
+        <div class="sidebar-dropdown-menu">
+            <a href="./faculty.html">Faculty</a>
+            <a href="./students.html">Students</a>
+            <a href="./staff.html">Staff</a>
+        </div>
+    </div>
+
+    <a class="sidebar-item" href="./Research.html">Research</a>
+    <a class="sidebar-item" href="./events.html">Events</a>
+
+    <div class="sidebar-dropdown">
+        <a class="sidebar-item dropdown-toggle" href="#">Academic Resources <i class="arrow down"></i></a>
+        <div class="sidebar-dropdown-menu">
+            <a href="https://library.iitgn.ac.in/">Library</a>
+            <a href="https://catalog.iitgn.ac.in/">Library Catalogue</a>
+            <a href="https://repository.iitgn.ac.in/handle/123456789/427">Digital Repository</a>
+            <a href="https://library.iitgn.ac.in/documents/eresources/ComputerScienceandEngineering.pdf">E-Journal Collection</a>
+        </div>
+    </div>
+
+    <a class="sidebar-item" href="./careers.html">Careers</a>
+    <a class="sidebar-item" href="./contact.html">Contact</a>
+</div>
+        <style>
+            .master-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem; /* Space between cards */
+    padding: 2rem;
+}
+
+.card-holder {
+    width: auto;
+    height: auto;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 2rem rgba(31, 38, 135, 0.25);
+    color: #ccc;
+    font-size: 1rem; /* 18px -> 1.125rem */
+    line-height: 1.7rem;
+    margin-bottom: 4rem;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.card-holder img {
+    width: 10rem; /* 240px -> 15rem */
+    height: auto;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.card-description {
+    padding: 1rem;
+    text-align: center;
+    color: #ccc;
+}
+        </style>
+    </header>
+    <main>
+        <div class ="headings">
+            <h2>PhD Students</h2>
+        </div>
+        <div class="master-card-container">
+            <div class="card-holder">
+                <img src="https://cs.iitgn.ac.in/student_image_file/rachit.jpg" alt="Rachit Chaya">
+                <div class="card-desc">
+                    <p> <a href="https://sites.google.com/view/rachitchhaya/" style="color: #64e0c1; text-decoration: none;">Rachit Chaya</a><br>
+                </div>
+            </div>
+            <div class="card-holder">
+                <img src="https://cs.iitgn.ac.in/student_image_file/tom.jpg" alt="Tom Glint Issac">
+                <div class="card-desc">
+                    <p> <a href="https://sites.google.com/view/tomglint" style="color: #64e0c1; text-decoration: none;">Tom Glint Issac</a><br>
+                </div>
+            </div>
+            <div class="card-holder">
+                <img src="https://cs.iitgn.ac.in/student_image_file/pankaj.jpg" alt="Pankaj Pandey">
+                <div class="card-desc">
+                    <p> <a href="https://pandey-pankaj.github.io/" style="color: #64e0c1; text-decoration: none;">Pankaj Pandey</a><br>
+                </div>
+            </div>
+            <div class="card-holder">
+                <img src="https://cs.iitgn.ac.in/student_image_file/akash.jpeg" alt="Akash Pareek">
+                <div class="card-desc">
+                    <p> <a href="https://sites.google.com/view/akashpareek" style="color: #64e0c1; text-decoration: none;">Akash Pareek</a><br>
+                </div>
+            </div>
+            <div class="card-holder">
+                <img src="https://cs.iitgn.ac.in/student_image_file/anant.jpg" alt="Anant Kumar">
+                <div class="card-desc">
+                    <p> <a href="https://scholar.google.com/citations?user=llQQJGMAAAAJ&hl=en" style="color: #64e0c1; text-decoration: none;">Anant Kumar</a><br>
+                </div>
+            </div>
+            <div class="card-holder">
+                <img src="https://cs.iitgn.ac.in/student_image_file/shruti.jpg" alt="Shruti Singh">
+                <div class="card-desc">
+                    <p> <a href="https://shruti-singh.github.io/" style="color: #64e0c1; text-decoration: none;">Shruti Singh</a><br>
+                </div>
+            </div>
+            <div class="card-holder">
+                <img src="https://cs.iitgn.ac.in/student_image_file/rishi.jpg" alt="Rishiraj Adhikary">
+                <div class="card-desc">
+                    <p> <a href="https://rishi-a.github.io/" style="color: #64e0c1; text-decoration: none;">Rishiraj Adhikary</a><br>
+                </div>
+            </div>
+            <div class="card-holder">
+                <img src="https://cs.iitgn.ac.in/student_image_file/shriraj.jfif" alt="Shriraj Sawant">
+                <div class="card-desc">
+                    <p> <a href="https://www.linkedin.com/in/shriraj-aka-sr13/" style="color: #64e0c1; text-decoration: none;">Shriraj Sawant</a><br>
+                </div>
+            </div>
+            <div class="card-holder">
+                <img src="https://cs.iitgn.ac.in/student_image_file/aditi.jpg" alt="Aditi Sethia">
+                <div class="card-desc">
+                    <p> <a href="https://sites.google.com/iitgn.ac.in/aditi-sethia" style="color: #64e0c1; text-decoration: none;">Aditi Sethia</a><br>
+                </div>
+            </div>
+            <div class="card-holder">
+                <img src="https://cs.iitgn.ac.in/student_image_file/dhara.jpg" alt="Dhara Thakkar">
+                <div class="card-desc">
+                    <p> <a href="https://sites.google.com/iitgn.ac.in/dharathakkar" style="color: #64e0c1; text-decoration: none;">Dhara Thakkar</a><br>
+                </div>
+            </div><div class="card-holder">
+                <img src="https://cs.iitgn.ac.in/student_image_file/jayesh.jpg" alt="Jayesh Malaviya">
+                <div class="card-desc">
+                    <p> <a href="https://www.linkedin.com/in/jayeshmalaviya/" style="color: #64e0c1; text-decoration: none;">Jayesh Malaviya</a><br>
+                </div>
+            </div>
+            <div class="card-holder">
+                <img src="https://cs.iitgn.ac.in/student_image_file/zeel.jpg" alt="Zeel B. Patel">
+                <div class="card-desc">
+                    <p> <a href="https://patel-zeel.github.io/" style="color: #64e0c1; text-decoration: none;">Zeel B. Patel</a><br>
+                </div>
+            </div>
+            <div class="card-holder">
+                <img src="https://cs.iitgn.ac.in/student_image_file/susmita.jpg" alt="Susmita Mondal">
+                <div class="card-desc">
+                    <p> <a href="https://www.linkedin.com/in/susmita-mondal-378949143" style="color: #64e0c1; text-decoration: none;">Susmita Mondal</a><br>
+                </div>
+            </div>
+            <div class="card-holder">
+                <img src="https://cs.iitgn.ac.in/student_image_file/harshil.jpg" alt="Harshil Mittal">
+                <div class="card-desc">
+                    <p> <a href="https://in.linkedin.com/in/harshit-mittal-b63b40320" style="color: #64e0c1; text-decoration: none;">Harshil Mittal</a><br>
+                </div>
+            </div><div class="card-holder">
+                <img src="https://cs.iitgn.ac.in/student_image_file/dipan.jpg" alt="Dipan Dey">
+                <div class="card-desc">
+                    <p> <a href="https://sites.google.com/view/dipandey/home" style="color: #64e0c1; text-decoration: none;">Dipan Dey</a><br>
+                </div>
+            </div>
+            <div class="card-holder">
+                <img src="https://cs.iitgn.ac.in/student_image_file/gaytri.jpg" alt="Gayatri Priyadarshini">
+                <div class="card-desc">
+                    <p> <a href="https://www.linkedin.com/in/gayatri-priyadarsini-22638b193" style="color: #64e0c1; text-decoration: none;">Gayatri Priyadarshini</a><br>
+                </div>
+            </div>
+            <div class="card-holder">
+                <img src="https://cs.iitgn.ac.in/student_image_file/shrutimoy.jpg" alt="Shrutimoy Das">
+                <div class="card-desc">
+                    <p> <a href="https://sites.google.com/iitgn.ac.in/shrutimoy" style="color: #64e0c1; text-decoration: none;">Shrutimoy Das</a><br>
+                </div>
+            </div>
+            <div class="card-holder">
+                <img src="https://cs.iitgn.ac.in/student_image_file/Jinia.jpg" alt="Jinia Ghosh">
+                <div class="card-desc">
+                    <p> <a href="#" style="color: #64e0c1; text-decoration: none;">Jinia Ghosh</a><br>
+                </div>
+            </div>
+            <div class="card-holder">
+                <img src="https://cs.iitgn.ac.in/student_image_file/himanshu.jpg" alt="Himanshu Beniwal">
+                <div class="card-desc">
+                    <p> <a href="http://himanshubeniwal.tech/" style="color: #64e0c1; text-decoration: none;">Himanshu Beniwal</a><br>
+                </div>
+            </div>
+            <div class="card-holder">
+                <img src="https://cs.iitgn.ac.in/student_image_file/pritam.jpg" alt="Pritam Kadasi">
+                <div class="card-desc">
+                    <p> <a href="https://pskadasi.github.io/" style="color: #64e0c1; text-decoration: none;">Pritam Kadasi</a><br>
+                </div>
+            </div>
+            <div class="card-holder">
+                <img src="https://cs.iitgn.ac.in/student_image_file/binita.jpg" alt="Binita Maity">
+                <div class="card-desc">
+                    <p> <a href="https://www.linkedin.com/in/binita-maity-212746175" style="color: #64e0c1; text-decoration: none;">Binita Maity</a><br>
+                </div>
+            </div>
+            <div class="card-holder">
+                <img src="https://cs.iitgn.ac.in/student_image_file/SarthDubey.jpg" alt="Sarth Dubey">
+                <div class="card-desc">
+                    <p> <a href="https://dubeysarth.github.io/About/" style="color: #64e0c1; text-decoration: none;">Sarth Dubey</a><br>
+                </div>
+            </div>
+            <div class="card-holder">
+                <img src="https://cs.iitgn.ac.in/student_image_file/prajwal.png" alt="Prajwal Singh">
+                <div class="card-desc">
+                    <p> <a href="https://prajwalsingh.github.io/" style="color: #64e0c1; text-decoration: none;">Prajwal Singh</a><br>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+        <a href="https://www.youtube.com/channel/UCPYUnvUV3CiMmkhfYME48QQ" class="footer-link"><img src="./images/youtube.png" class="footer-img"></a>
+        <a href="https://www.linkedin.com/school/15095560/" class="footer-link"><img src="./images/linkedin.png" class="footer-img"></a>
+        <a href="https://twitter.com/cse_iitgn" class="footer-link"><img src="./images/twitter.png" class="footer-img"></a>
+        <a href="https://www.facebook.com/iitgn.official/" class="footer-link"><img src="./images/facebook-app-symbol.png" class="footer-img"></a>
+        </div>
+        <div style="padding: 0.5rem;"></div>
+        <p>&copy; CSE at IITGN. All rights reserved.</p>
+        <div style="padding: 4rem;"></div>
+    </footer>
+</body>
+</html>

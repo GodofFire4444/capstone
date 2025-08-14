@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="./images/logo.ico">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <button class="hamburger" id="hamburger-btn">☰</button>
+
+        </nav>
+        <style>
+            .webpage-content{
+                max-width: 90%;
+            }
+            .webpage-content a{
+                color: #ffffff;
+                text-decoration: underline;
+            }
+
+        </style>
+        <nav class="navbar">
+            <a href="./index.html"><img src="./images/logo.png" alt="iitgn logo" class="logo"></a>
+            <a class="nav-item" href="./index.html">Home</a>
+
+            <div class="nav-dropdown">
+                <a class="nav-item" href="#">Academics <i class="arrow down"></i></a>
+                <div class="dropdown-menu">
+                    <a href="./programs.html">Programs</a>
+                    <a href="./admissions.html">Admissions</a>
+                    <a href="./courses.html">Courses</a>
+                    <a href="./policies.html">Policies</a>
+                </div>
+            </div>
+
+            <div class="nav-dropdown">
+                <a class="nav-item" href="#">People <i class="arrow down"></i></a>
+                <div class="dropdown-menu">
+                    <a href="./faculty.html">Faculty</a>
+                    <a href="./students.html">Students</a>
+                    <a href="./staff.html">Staff</a>
+                </div>
+            </div>
+
+            <a class="nav-item" href="./Research.html">Research</a>
+            <a class="nav-item" href="./events.html">Events</a>
+
+            <div class="nav-dropdown">
+                <a class="nav-item" href="#">Academic Resources <i class="arrow down"></i></a>
+                <div class="dropdown-menu">
+                    <a href="https://library.iitgn.ac.in/">Library</a>
+                    <a href="https://catalog.iitgn.ac.in/">Library Catalogue</a>
+                    <a href="https://repository.iitgn.ac.in/handle/123456789/427">Digital Repository</a>
+                    <a href="https://library.iitgn.ac.in/documents/eresources/ComputerScienceandEngineering.pdf">E-Journal Collection</a>
+                </div>
+            </div>
+
+            <a class="nav-item" href="./careers.html">Careers</a>
+            <a class="nav-item" href="./contact.html">Contact</a>
+        </nav>
+
+        <div class="sidebar">
+    <a class="sidebar-item" href="./index.html"><img src="./images/logo.png" alt="iitgn logo" class="logo"></a>
+    <a class="sidebar-item" href="./index.html">Home</a>
+
+    <div class="sidebar-dropdown">
+        <a class="sidebar-item dropdown-toggle" href="#">Academics <i class="arrow down"></i></a>
+        <div class="sidebar-dropdown-menu">
+            <a href="./programs.html">Programs</a>
+            <a href="./admissions.html">Admissions</a>
+            <a href="./courses.html">Courses</a>
+            <a href="./policies.html">Policies</a>
+        </div>
+    </div>
+
+    <div class="sidebar-dropdown">
+        <a class="sidebar-item dropdown-toggle" href="#">People <i class="arrow down"></i></a>
+        <div class="sidebar-dropdown-menu">
+            <a href="./faculty.html">Faculty</a>
+            <a href="./students.html">Students</a>
+            <a href="./staff.html">Staff</a>
+        </div>
+    </div>
+
+    <a class="sidebar-item" href="./Research.html">Research</a>
+    <a class="sidebar-item" href="./events.html">Events</a>
+
+    <div class="sidebar-dropdown">
+        <a class="sidebar-item dropdown-toggle" href="#">Academic Resources <i class="arrow down"></i></a>
+        <div class="sidebar-dropdown-menu">
+            <a href="https://library.iitgn.ac.in/">Library</a>
+            <a href="https://catalog.iitgn.ac.in/">Library Catalogue</a>
+            <a href="https://repository.iitgn.ac.in/handle/123456789/427">Digital Repository</a>
+            <a href="https://library.iitgn.ac.in/documents/eresources/ComputerScienceandEngineering.pdf">E-Journal Collection</a>
+        </div>
+    </div>
+
+    <a class="sidebar-item" href="./careers.html">Careers</a>
+    <a class="sidebar-item" href="./contact.html">Contact</a>
+</div>
+    </header>
+    <main>
+        <div class ="headings">
+            <h2>Courses</h2>
+        </div>
+        <div class="webpage-content">
+            <div class="table-container">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Course Code</th>
+                            <th>Course Name</th>
+                            <th>Credits</th>
+                            <th>
+                                Preferred Semester<br>(BTech)
+                            </th>
+                            <th>
+                                Preferred Semester<br>(MTech)
+                            </th>
+                            <th>
+                                Offered In<br>(Even/Odd Semester)
+                            </th>
+                            <th >Type</th>
+                            <th >Area</th>
+                        </tr>
+                        <tr>
+
+                            <td>CS201</td>
+                            <td><a target="_blank" href="https://drive.google.com/file/d/1FLaVe_Q06AG9N_9dM0gB5ntauEeRBJSl/view?usp=drive_link">Theory of Computation</a></td>
+                            <td>4</td>
+                            <td>3</td>
+                            <td>0</td>
+                            <td>Odd</td>
+                            <td>Core</td>
+                            <td>Theory</td>
+                        </tr>
+                        <tr>
+
+                            <td>CS202</td>
+                            <td><a target="_blank" href="https://drive.google.com/file/d/1ybMOsxACShCcRa7OJraCwBXcc0SmV0aS/view?usp=drive_link">Software Tools &amp; Techniques</a></td>
+                            <td>4</td>
+                            <td>3</td>
+                            <td>0</td>
+                            <td>Odd</td>
+                            <td>CSE Core</td>
+                            <td>Systems</td>
+                        </tr>
+                        <tr>
+
+                            <td>CS203</td>
+                            <td><a target="_blank" href="https://drive.google.com/file/d/1EJEZL58bRlq9exqlZFHRSI6bAbGUGUFh/view?usp=drive_link">Software Tools &amp; Techniques for AI</a></td>
+                            <td>4</td>
+                            <td>3</td>
+                            <td>0</td>
+                            <td>Odd</td>
+                            <td>AI Core</td>
+                            <td>AI/Systems</td>
+                        </tr>
+                        <tr>
+
+                            <td>CS301</td>
+                            <td><a target="_blank" href="https://drive.google.com/file/d/17os2YnqfgDeFAvXbP0J4Hs9rVV7vlhlw/view?usp=drive_link">Operating Systems</a></td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>0</td>
+                            <td>Odd</td>
+                            <td>Core</td>
+                            <td>Systems</td>
+                        </tr>
+                        <tr>
+
+                            <td>CS303</td>
+                            <td><a target="_blank" href="https://drive.google.com/file/d/192VKpP6OSW0kWjcBBoG_nDuncJYeTTll/view?usp=drive_link">Mathematical Foundations for AI</a></td>
+                            <td>4</td>
+                            <td>3</td>
+                            <td>0</td>
+                            <td>Odd</td>
+                            <td>AI Core</td>
+                            <td>AI</td>
+                        </tr>
+                        <tr>
+                            <td>CS327</td>
+                            <td><a target="_blank" href="https://drive.google.com/file/d/1-H94uhe8rQSZdeQ6L3st4_NudXxbbzIB/view?usp=drive_link">Compilers</a></td>
+                            <td>5</td>
+                            <td>5</td>
+                            <td>0</td>
+                            <td>Odd</td>
+                            <td>Core</td>
+                            <td>Systems</td>
+                        </tr>
+                        <tr>
+
+                            <td>CS328</td>
+                            <td><a target="_blank" href="https://drive.google.com/file/d/1_Au0y2LJaCM5qEXke1opjU9L5OiF8sx9/view?usp=drive_link">Introduction to Data Science</a></td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>0</td>
+                            <td>Odd</td>
+                            <td>Core</td>
+                            <td class="s1"></td>
+                        </tr>
+                        <tr>
+
+                            <td>CS329</td>
+                            <td><a target="_blank" href="https://drive.google.com/file/d/19tzChx92sXWQsqDJ09qRXcNGTqCUckF3/view?usp=drive_link">Foundations of AI: Multiagent Systems</a></td>
+                            <td>4</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>TBD</td>
+                            <td>AI Core</td>
+                            <td>AI</td>
+                        </tr>
+                        <tr>
+
+                            <td>CS331</td>
+                            <td><a target="_blank" href="https://drive.google.com/file/d/143mIPDZiW4myVSJxGA8wcrcBQjFwRpMo/view?usp=drive_link">Computer Networks</a></td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>0</td>
+                            <td>Odd</td>
+                            <td>Core</td>
+                            <td>Systems</td>
+                        </tr>
+                        <tr>
+
+                            <td>CS431</td>
+                            <td><a target="_blank" href="https://drive.google.com/file/d/1oOkthGaaJzPjMv54D4sBnt_3z51ZH1tV/view?usp=drive_link">Computer and Network Security</a></td>
+                            <td>4</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>Even</td>
+                            <td>Elective</td>
+                            <td class="s1"></td>
+                        </tr>
+                        <tr>
+
+                            <td>CS432</td>
+                            <td><a target="_blank" href="https://drive.google.com/file/d/1xvgnJMoL6Aa8U_f6o8WVvqwzjHh6v8YE/view?usp=drive_link">Databases</a></td>
+                            <td>4</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>Even</td>
+                            <td>
+                                Extended Core
+                            </td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+
+                            <td>CS434</td>
+                            <td><a target="_blank" href="https://drive.google.com/file/d/15sPd55UUREV7g10RaqOiHyKPvyEj7cZA/view?usp=drive_link">Software Engineering and Testing</a></td>
+                            <td>4</td>
+                            <td>8</td>
+                            <td>0</td>
+                            <td>Even</td>
+                            <td>Elective</td>
+                            <td>Systems</td>
+                        </tr>
+                        <tr>
+
+                            <td>CS607</td>
+                            <td class="s2 softmerge" dir="ltr">
+                                <div class="softmerge-inner" style="width:18.625rem;left:-0.0625rem;"><a target="_blank" href="https://drive.google.com/file/d/1fYROI7fFTKIuLmVJo37MVUTLSgMdCMvX/view?usp=drive_link">Combinatorics with Applications <br> in Computer Science</a></div>
+                            </td>
+                            <td>4</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>Odd</td>
+                            <td>Elective</td>
+                            <td class="s1"></td>
+                        </tr>
+                        <tr>
+
+                            <td>CS609</td>
+                            <td><a target="_blank" href="https://cs.iitgn.ac.in/course_output">Advanced Data Structures</a></td>
+                            <td>4</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>Odd</td>
+                            <td>Elective</td>
+                            <td class="s1"></td>
+                        </tr>
+                        <tr>
+
+                            <td>CS610</td>
+                            <td><a target="_blank" href="https://drive.google.com/file/d/1XSxUBvN8Q1-kSMXGzsp_jsBGkmfvE0yx/view?usp=drive_link">Algorithms</a></td>
+                            <td>4</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>Odd</td>
+                            <td>Core (MTech)</td>
+                            <td class="s1"></td>
+                        </tr>
+                        <tr>
+
+                            <td>CS612</td>
+                            <td><a target="_blank" href="https://drive.google.com/file/d/1MVYVhaolQS879RAeXIxuRFgt_fiADNFy/view?usp=drive_link">Computer Systems</a></td>
+                            <td>4</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>Odd</td>
+                            <td>Core (MTech)</td>
+                            <td>Systems</td>
+                        </tr>
+                        <tr>
+
+                            <td>CS613</td>
+                            <td><a target="_blank" href="https://cs.iitgn.ac.in/course_output">Natural Language Processing</a></td>
+                            <td>4</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>Odd</td>
+                            <td>Elective</td>
+                            <td class="s1"></td>
+                        </tr>
+                        <tr>
+
+                            <td>CS614</td>
+                            <td><a target="_blank" href="https://drive.google.com/file/d/19zNQUQVikXdQioz4U1MUS74OKOujXJ4b/view?usp=drive_link">Advanced Algorithms</a></td>
+                            <td>4</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>Even</td>
+                            <td>
+                                <div>Extended Core</div>
+                            </td>
+                            <td class="s4"></td>
+                        </tr>
+                        <tr>
+
+                            <td>CS615</td>
+                            <td><a target="_blank" href="https://drive.google.com/file/d/1sOSKPap_n2kSvs2MYXCzLCZQn9YWK1c3/view?usp=drive_link">Advanced Computer Networks</a></td>
+                            <td>4</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>Even</td>
+                            <td>Elective</td>
+                            <td class="s1"></td>
+                        </tr>
+                        <tr>
+
+                            <td>CS616</td>
+                            <td><a target="_blank" href="https://cs.iitgn.ac.in/course_output">Parallel and Distributed Systems</a></td>
+                            <td>5</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>Even</td>
+                            <td>Core</td>
+                            <td class="s1"></td>
+                        </tr>
+                        <tr>
+
+                            <td>CS618</td>
+                            <td class="s2 softmerge" dir="ltr">
+                                <div class="softmerge-inner" style="width:18.625rem;left:-0.0625rem;"><a target="_blank" href="https://drive.google.com/file/d/1KhHBn958zPUhga99cymIXjbj4M5b8B8j/view?usp=drive_link">Theoretical Foundations <br> of Machine Learning</a></div>
+                            </td>
+                            <td>4</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>TBD</td>
+                            <td>Elective</td>
+                            <td>AI/ML</td>
+                        </tr>
+                        <tr>
+
+                            <td>CS619</td>
+                            <td><a target="_blank" href="https://drive.google.com/file/d/1VSun3sfKGjh7VI00BSc12GSm3GMyiM1U/view?usp=drive_link">Theoretical Toolkit</a></td>
+                            <td>4</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>TBD</td>
+                            <td class="s1"></td>
+                            <td>Theory</td>
+                        </tr>
+                        <tr>
+
+                            <td>ES 645</td>
+                            <td><a target="_blank" href="https://sites.google.com/iitgn.ac.in/es645-2022/home">Optimization for ML</a></td>
+                            <td>4</td>
+                            <td>7</td>
+                            <td>3</td>
+                            <td>Odd</td>
+                            <td>Elective</td>
+                            <td>Machine Learning</td>
+                        </tr>
+                        <tr>
+
+                            <td>ES112</td>
+                            <td><a target="_blank" href="https://drive.google.com/file/d/1ruJuGZ2Ul4Bc22gQ3xsGYrDWbU1FB7-F/view?usp=drive_link">Computing</a></td>
+                            <td>3</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>Odd</td>
+                            <td>Institute Core</td>
+                            <td class="s1"></td>
+                        </tr>
+                        <tr>
+
+                            <td>ES113</td>
+                            <td><a target="_blank" href="https://drive.google.com/file/d/1n0Z1Hk9SPRha0q-xDnYlac3tImM6nej4/view?usp=drive_link">Data-Centric Computing</a></td>
+                            <td>3</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>TBD</td>
+                            <td>Core</td>
+                            <td class="s1"></td>
+                        </tr>
+                        <tr>
+
+                            <td>ES114</td>
+                            <td class="s2 softmerge" dir="ltr">
+                                <div class="softmerge-inner" style="width:18.625rem;left:-0.0625rem;"><a target="_blank" href="https://drive.google.com/file/d/1DbkreoH-4sUVLLdaI4fdfx--xMx_PI_A/view?usp=drive_link">Probability, Statistics <br> and Data Visualization</a></div>
+                            </td>
+                            <td>3</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>TBD</td>
+                            <td>Core</td>
+                            <td class="s1"></td>
+                        </tr>
+                        <tr>
+
+                            <td>ES204</td>
+                            <td><a target="_blank" href="https://drive.google.com/file/d/1Dh2ePFh9tNQ5gO1asqF_4C-GlkOtx3mD/view?usp=drive_link">Digital Systems</a></td>
+                            <td>4</td>
+                            <td>3</td>
+                            <td>0</td>
+                            <td>Odd</td>
+                            <td>Core</td>
+                            <td class="s1"></td>
+                        </tr>
+                        <tr>
+
+                            <td>ES214</td>
+                            <td><a target="_blank" href="https://drive.google.com/file/d/13pRzf1AM_mrXhWerfLHIpz7XDJNni1re/view?usp=drive_link">Discrete Mathematics</a></td>
+                            <td>4</td>
+                            <td>4</td>
+                            <td>0</td>
+                            <td>Even</td>
+                            <td>Core</td>
+                            <td>Theory</td>
+                        </tr>
+                        <tr>
+
+                            <td>ES215</td>
+                            <td><a target="_blank" href="https://drive.google.com/file/d/1FE9TexLot74XIRPZNlrIMUnWeex4Ote-/view?usp=drive_link">Computer Organisation &amp; Architecture</a></td>
+                            <td>4</td>
+                            <td>4</td>
+                            <td>0</td>
+                            <td>Even</td>
+                            <td>Core</td>
+                            <td class="s1"></td>
+                        </tr>
+                        <tr>
+
+                            <td>ES242</td>
+                            <td><a target="_blank" href="https://drive.google.com/file/d/1OVquxMfHo6wxX1u8RIS0NZePRPSDecgh/view?usp=drive_link">Data Structures and Algorithms-1</a></td>
+                            <td>4</td>
+                            <td>3</td>
+                            <td>0</td>
+                            <td>Odd</td>
+                            <td>Core</td>
+                            <td class="s1"></td>
+                        </tr>
+                        <tr>
+
+                            <td>ES301</td>
+                            <td><a target="_blank" href="https://drive.google.com/file/d/1VqhpKrfblekH6cEKsAPW4aPIwf3FrLkB/view?usp=drive_link">Data Structures and Algorithms II</a></td>
+                            <td>4</td>
+                            <td>4</td>
+                            <td>0</td>
+                            <td>Even</td>
+                            <td>Core</td>
+                            <td class="s1"></td>
+                        </tr>
+                        <tr>
+
+                            <td>ES335</td>
+                            <td><a target="_blank" href="https://drive.google.com/file/d/1RYAFGMn3XLmnGTJrjRL81kSDM4Q5D7-S/view?usp=drive_link">Machine Learning</a></td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>0</td>
+                            <td>TBD</td>
+                            <td>AI Core</td>
+                            <td>AI</td>
+                        </tr>
+                        <tr>
+
+                            <td>ES637</td>
+                            <td class="s2 softmerge" dir="ltr">
+                                <div class="softmerge-inner" style="width:18.625rem;left:-0.0625rem;"><a target="_blank" href="https://drive.google.com/file/d/1QhQWtPYuPu5WphK9IOio7yrKEHwX2DMC/view?usp=drive_link">Mathematical Foundations for <br> Computer Vision &amp; Graphics</a></div>
+                            </td>
+                            <td>4</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>TBD</td>
+                            <td>Elective</td>
+                            <td>AI</td>
+                        </tr>
+                        <tr>
+
+                            <td >ES667</td>
+                            <td><a target="_blank" href="https://drive.google.com/file/d/1mDocgVhkOUFtL4zNE1jKotdHmRs0hbZd/view?usp=drive_link">Deep Learning</a></td>
+                            <td>4</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>TBD</td>
+                            <td class="s5"></td>
+                            <td >AI/ML</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <a href="https://www.youtube.com/channel/UCPYUnvUV3CiMmkhfYME48QQ" class="footer-link"><img src="./images/youtube.png" class="footer-img"></a>
+            <a href="https://www.linkedin.com/school/15095560/" class="footer-link"><img src="./images/linkedin.png" class="footer-img"></a>
+            <a href="https://twitter.com/cse_iitgn" class="footer-link"><img src="./images/twitter.png" class="footer-img"></a>
+            <a href="https://www.facebook.com/iitgn.official/" class="footer-link"><img src="./images/facebook-app-symbol.png" class="footer-img"></a>
+        </div>
+        <div style="padding: 0.5rem;"></div>
+        <p>&copy; CSE at IITGN. All rights reserved.</p>
+        <div style="padding: 4rem;"></div>
+    </footer>
+</body>
+</html>
