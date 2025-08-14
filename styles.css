@@ -476,7 +476,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 5rem; /* Space between cards */
+    gap: 3rem; /* Space between cards */
     padding: 2rem;
 }
 
@@ -689,3 +689,4 @@ table{
 body.no-scroll {
     overflow: hidden;
 }
+
